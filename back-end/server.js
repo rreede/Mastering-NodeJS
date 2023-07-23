@@ -2,6 +2,13 @@ const http = require('http');
 
 const fs = require('fs');
 
+const _ = require('lodash');
+
+// lodash
+
+const num = _.random(0,20);
+console.log(num);
+
  const server = http.createServer((req,res)=> {
 
     let path = './views/';
